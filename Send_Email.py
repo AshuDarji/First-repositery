@@ -30,8 +30,3 @@ try:
         print(f'Email has been sent to :{ToEmail}')
 except smtplib.SMTPException:
     print('Something went wrong,Please contact ISC')
-
-
-
-
-    
